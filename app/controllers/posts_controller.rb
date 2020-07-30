@@ -20,6 +20,7 @@ class PostsController < ApplicationController
 
 end
 
+# Save method inserts new record into the database. This is what the create method is doing.
 # bundle exec rails console
 # post = Post.new
 # post.title = "Title Goes Here"
