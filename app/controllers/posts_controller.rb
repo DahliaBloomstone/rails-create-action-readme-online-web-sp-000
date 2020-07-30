@@ -19,3 +19,9 @@ class PostsController < ApplicationController
   end
 
 end
+
+# bundle exec rails console
+# post = Post.new
+# post.title = "Title Goes Here"
+# post.description = "Desc goes here..."
+# post.save
