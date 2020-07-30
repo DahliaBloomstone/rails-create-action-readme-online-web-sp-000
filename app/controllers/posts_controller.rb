@@ -11,12 +11,13 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
+
   def create
   @post = Post.new
   @post.title = params[:title]
   @post.description = params[:description]
   @post.save
-  redirect_to post_path(@post)
+  redirect_to post_path(@post) #convention of redirecting to a new show page 
 end
 
 end
